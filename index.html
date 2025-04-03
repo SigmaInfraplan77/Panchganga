@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link href="resources/ol-geocoder.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="resources/polyfills.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="resources/ol-geocoder.js"></script>
+        <script src="layers/PanchgangaBasin_1.js"></script><script src="layers/BhogawatiBasin_2.js"></script><script src="layers/DhamanaBasin_3.js"></script><script src="layers/KasariBasin_4.js"></script><script src="layers/TulashiBasin_5.js"></script><script src="layers/KumbhiBasin_6.js"></script><script src="layers/Reservoirs_7.js"></script><script src="layers/RoadNetwork_8.js"></script><script src="layers/Bridges_9.js"></script><script src="layers/Airport_10.js"></script><script src="layers/BusStation_11.js"></script><script src="layers/RailwayStation_12.js"></script><script src="layers/Villages_13.js"></script><script src="layers/RaingaugeStations_14.js"></script><script src="layers/Industries_15.js"></script><script src="layers/Dams_16.js"></script><script src="layers/ReligiousPlaces_17.js"></script><script src="layers/EducationalComplex_18.js"></script><script src="layers/Rivers_19.js"></script><script src="layers/Tehsil_20.js"></script><script src="layers/PanchgangaBasinBoundary_21.js"></script><script src="layers/Kolhapur_22.js"></script>
+        <script src="styles/PanchgangaBasin_1_style.js"></script><script src="styles/BhogawatiBasin_2_style.js"></script><script src="styles/DhamanaBasin_3_style.js"></script><script src="styles/KasariBasin_4_style.js"></script><script src="styles/TulashiBasin_5_style.js"></script><script src="styles/KumbhiBasin_6_style.js"></script><script src="styles/Reservoirs_7_style.js"></script><script src="styles/RoadNetwork_8_style.js"></script><script src="styles/Bridges_9_style.js"></script><script src="styles/Airport_10_style.js"></script><script src="styles/BusStation_11_style.js"></script><script src="styles/RailwayStation_12_style.js"></script><script src="styles/Villages_13_style.js"></script><script src="styles/RaingaugeStations_14_style.js"></script><script src="styles/Industries_15_style.js"></script><script src="styles/Dams_16_style.js"></script><script src="styles/ReligiousPlaces_17_style.js"></script><script src="styles/EducationalComplex_18_style.js"></script><script src="styles/Rivers_19_style.js"></script><script src="styles/Tehsil_20_style.js"></script><script src="styles/PanchgangaBasinBoundary_21_style.js"></script><script src="styles/Kolhapur_22_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>

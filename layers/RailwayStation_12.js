@@ -1,0 +1,1 @@
+var json_RailwayStation_12 = {"type":"FeatureCollection","name":"RailwayStation_12","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"1","Name":"Shri Chh. Shahu Maharaj T Kolhapur"},"geometry":{"type":"Point","coordinates":[74.237912839802533,16.702672332991018]}}]}
